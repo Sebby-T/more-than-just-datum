@@ -6,18 +6,6 @@ html {
   max-width: 200px;
 }
 
-.search {
-  background-image: url("../images/search.svg");
-  background-position: left;
-  background-size: 20px;
-  background-color: #fff;
-}
-
-input:not([type="checkbox"]),
-input:not([type="radio"]) {
-  padding-left: 1rem;
-}
-
 header {
   background-color: #ddd;
 }
@@ -31,13 +19,13 @@ header {
 }
 
 table {
-  min-width: 50em;
+  min-width: 45em;
 }
 
 @media only screen and (min-width: 60em) {
 
   .table-wrapper {
-    overflow: visible
+    overflow: visible;
   }
 
 }
